@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./dist/style.css">
+    <title>Calculator</title>
+</head>
+<body class="bg-slate-900">
+        <table class="table-fixed mx-[40vw] my-32">
+            <tbody>
+            <tr>
+                <td colspan="4"><p data-previous-operand class="h-8 text-2xl text-slate-200 bg-slate-900 font-bold my-3"></p></td>
+            </tr>
+            <tr>
+                <td colspan="4"><p data-current-operand class="h-16 text-5xl text-slate-200 bg-slate-900 font-bold my-3"></p></td>
+            </tr>
+            <tr>
+                <td><button data-all-clear class="text-3xl text-slate-900 bg-slate-400 active:bg-slate-200 font-bold py-7 px-7 border-4 border-slate-900 rounded-full ">AC</button></td>
+                <td><button data-delete class="text-3xl text-slate-900 bg-slate-400 active:bg-slate-200 font-bold py-7 px-5 border-4 border-slate-900 rounded-full ">DEL</button></td>
+                <td><button data-operation class="text-3xl text-slate-900 bg-slate-400 active:bg-slate-200 font-bold py-7 px-8 border-4 border-slate-900 rounded-full ">%</button></td>
+                <td><button data-operation class="text-3xl text-slate-100 bg-orange-400 active:bg-orange-300 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">÷</button></td>
+            </tr>
+            <tr>
+                <td><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">7</button></td>
+                <td><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">8</button></td>
+                <td><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">9</button></td>
+                <td><button data-operation class="text-3xl text-slate-100 bg-orange-400 active:bg-orange-300 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">X</button></td>
+            </tr>
+            <tr>
+                <td><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">4</button></td>
+                <td><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">5</button></td>
+                <td><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">6</button></td>
+                <td><button data-operation class="text-3xl text-slate-100 bg-orange-400 active:bg-orange-300 text-3xl font-bold py-7 px-10 border-4 border-slate-900 rounded-full ">-</button></td>
+            </tr>
+            <tr>
+                <td><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">1</button></td>
+                <td><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">2</button></td>
+                <td><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">3</button></td>
+                <td><button data-operation class="text-3xl text-slate-100 bg-orange-400 active:bg-orange-300 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 font-bold py-7 px-24 border-4 border-slate-900 rounded-full ">0</button></td>
+                <td><button data-number class="text-3xl text-slate-100 bg-slate-500 active:bg-slate-400 text-3xl font-bold py-6 font-bold py-8 px-10 border-4 border-slate-900 rounded-full ">.</button></td>
+                <td><button data-equals class="text-3xl text-slate-100 bg-orange-400 active:bg-orange-300 font-bold py-7 px-9 border-4 border-slate-900 rounded-full ">=</button></td>
+            </tr>
+            </tbody>
+        </table>
+        <script src="./script.js"></script>
+</body>
+</html>
