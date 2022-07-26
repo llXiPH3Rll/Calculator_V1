@@ -1,2 +1,2 @@
-# Calculator_v1
+# Calculator_V1
 A simple calculator
